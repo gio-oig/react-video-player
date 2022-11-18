@@ -1,0 +1,161 @@
+.App {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
+.source-container {
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+  place-content: center;
+  text-align: center;
+}
+
+.videos-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+
+.video-container video {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.video-container:hover .video-center-controlls {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.video-center-controlls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.center-controll_img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.stop-icon {
+  display: block;
+}
+
+.play-icon {
+  display: none;
+}
+
+.stoped .play-icon {
+  display: block;
+}
+
+.stoped .stop-icon {
+  display: none;
+}
+
+.video-container:hover .video-footer-controlls {
+  opacity: 1;
+  pointer-events: fill;
+}
+
+.video-footer-controlls {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5px 5px;
+  opacity: 0;
+  pointer-events: none;
+  color: #fff;
+  z-index: 10;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.timeline-container {
+  margin-bottom: 5px;
+  height: 5px;
+  background-color: gray;
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.timeline {
+  background-color: blueviolet;
+  height: 100%;
+  transition: all 0.5s ease;
+}
+
+.time-container {
+  display: flex;
+}
+
+.controlles-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* .controlles-container__controlls {
+  display: flex;
+  flex: 1;
+} */
+.zoom-icons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.zoom-icons svg:hover {
+  scale: 1.2;
+}
+
+.drag-mode .video-center-controlls {
+  pointer-events: none;
+}
+
+video {
+  cursor: auto;
+}
+
+.drag-mode video {
+  cursor: grab;
+}
+
+.playback-rate {
+  user-select: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.icon-button {
+  cursor: pointer;
+}
+
+.time {
+  font-size: 14px;
+}
