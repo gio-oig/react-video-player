@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-video-player/static/css/main.7f1826e8.css",
+    "main.js": "/react-video-player/static/js/main.191233ef.js",
+    "static/js/787.2b3e4843.chunk.js": "/react-video-player/static/js/787.2b3e4843.chunk.js",
+    "static/media/backward-5.svg": "/react-video-player/static/media/backward-5.dc89b3bb911af6f064634d62f6e51af0.svg",
+    "static/media/forward-5.svg": "/react-video-player/static/media/forward-5.062cc8590e86e9ede6d91f0c9573eabf.svg",
+    "index.html": "/react-video-player/index.html",
+    "static/media/pause.svg": "/react-video-player/static/media/pause.2476478b90664ed3739e12b1bcbf1166.svg",
+    "static/media/play.svg": "/react-video-player/static/media/play.dc29538cdf0fb3ba30c2b26e43853fd7.svg",
+    "main.7f1826e8.css.map": "/react-video-player/static/css/main.7f1826e8.css.map",
+    "main.191233ef.js.map": "/react-video-player/static/js/main.191233ef.js.map",
+    "787.2b3e4843.chunk.js.map": "/react-video-player/static/js/787.2b3e4843.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f1826e8.css",
+    "static/js/main.191233ef.js"
+  ]
+}
