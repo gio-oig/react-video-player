@@ -1,10 +1,3 @@
-import backWardsSvg from "../../assets/backward-5.svg";
-import pasueSvg from "../../assets/pause.svg";
-import playSvg from "../../assets/play.svg";
-import ForwardSvg from "../../assets/forward-5.svg";
-import { AiOutlineZoomIn, AiOutlineZoomOut } from "react-icons/ai";
-
-import TimeComponent from "../time/time";
 import {
   ChangeEvent,
   Dispatch,
@@ -13,8 +6,18 @@ import {
   SetStateAction,
   useState,
 } from "react";
-import { SkipDirection, Zoom } from "../../App";
+
 import Sound from "../sound/sound";
+import TimeComponent from "../time/time";
+
+import { SkipDirection, Zoom } from "../../App";
+
+import { AiOutlineZoomIn, AiOutlineZoomOut } from "react-icons/ai";
+
+import backWardsSvg from "../../assets/backward-5.svg";
+import pasueSvg from "../../assets/pause.svg";
+import playSvg from "../../assets/play.svg";
+import ForwardSvg from "../../assets/forward-5.svg";
 
 type Position = {
   x: number;
